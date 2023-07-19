@@ -1,10 +1,12 @@
-# KubeBuilder Example
+# KubeBuilder GuestBook Example
 
 [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/loft-sh/devpod-kubebuilder-guestbook)
 
 ## Quickstart 
 
-Either click on the 'Open in DevPod' link above or start via `devpod up github.com/loft-sh/devpod-kubebuilder-example`. This will start a small devcontainer that has all the needed tools to start working on a custom Kubernetes controller. It will also start a small KinD cluster within the devcontainer that can be used for development.
+This repository contains all the needed tools to create a custom operator using [kubebuilder](https://book.kubebuilder.io/). It already includes the code after following the first two steps of the [kubebuilder quickstart](https://book.kubebuilder.io/quick-start.html).
+
+Either click on the 'Open in DevPod' link above or start via `devpod up github.com/loft-sh/devpod-kubebuilder-guestbook`. This will start a small devcontainer that has all the needed tools to start working on a custom Kubernetes controller. It will also start a small KinD cluster within the devcontainer that can be used for development.
 
 After successfully starting the devcontainer, you can then start the project via:
 
